@@ -28,6 +28,7 @@ def load_image_datasets(base_dir: str = "dataset",
         image_size=image_size,
         batch_size=batch_size,
         shuffle=shuffle,
+        label_mode="int",
         color_mode="rgb",
     )
 
